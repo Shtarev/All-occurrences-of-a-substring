@@ -18,13 +18,13 @@ $eintritt->ansehen('mit');
 /* Class */
 class Eintritt 
 {
-	public $wieViel;
+    public $wieViel;
     public $elemLang;
     public $elem;
-	public $ergebnisNach = array();
+    public $ergebnisNach = array();
     public $ergebnisMit = array();
 	
-	public function Eintritt($str, $elem)  
+    public function Eintritt($str, $elem)  
     {  
         if($this->wieViel = mb_substr_count($str, $elem))
         {  
